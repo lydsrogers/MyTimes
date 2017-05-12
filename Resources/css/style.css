@@ -1,0 +1,47 @@
+
+.header {
+  display: flex;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 80px;
+  flex: row nowrap;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+
+}
+
+ul {
+}
+
+.header li {
+  display: inline-block;
+  text-align: right;
+  vertical-align: bottom;
+
+}
+
+ .title {
+   color: MediumAquamarine;
+   padding-right: 1150px;
+   padding-top: 10px;
+
+
+ }
+
+a:visited {
+   color:black;
+ }
+
+.logo {
+
+}
+
+.navigation {
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 30px;
+  flex-basis: 2;
+
+}
