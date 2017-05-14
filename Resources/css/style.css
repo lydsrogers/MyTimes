@@ -15,10 +15,13 @@
 ul {
 }
 
-.header li {
+.nav span {
   display: inline-block;
   text-align: right;
   vertical-align: bottom;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 
 }
 
@@ -44,4 +47,41 @@ a:visited {
   padding-right: 30px;
   flex-basis: 2;
 
+}
+
+.content {
+  border: 2px black solid;
+  height: 800px;
+}
+
+.stories {
+  display: flex;
+}
+
+.column.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  border: 1px black solid;
+  margin-right: 32px;
+  text-align: left;
+}
+
+.tunastory {
+  display: block;
+  border: 1px black solid;
+  width: 580px;
+}
+
+.monument {
+  border: 1px black solid;
+  width: 580px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
