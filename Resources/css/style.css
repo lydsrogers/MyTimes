@@ -1,87 +1,196 @@
 
-.header {
-  display: flex;
-  border-bottom: 1px solid black;
-  width: 100%;
-  height: 80px;
-  flex: row nowrap;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  justify-content: space-between;
+.page {
+  background-color: white;
 
 }
 
-ul {
+.header {
+  display: flex;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  position: fixed;
+  background-color: white;
+  z-index: 5;
+  align-items: center;
+  height: 80px;
+}
+
+.box {
+  display: flex;
+  border: 1px black solid;
+  max-width: 75%;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .nav span {
-  display: inline-block;
-  text-align: right;
-  vertical-align: bottom;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 30px;
+  margin: 20px;
+  padding-right: 10px;
+
 
 }
 
  .title {
    color: MediumAquamarine;
-   padding-right: 1150px;
-   padding-top: 10px;
-
-
  }
 
 a:visited {
    color:black;
  }
 
-.logo {
-
-}
+ .logo {
+   margin-right: 14px;
+   height: 60px;
+   width: 70px;
+ }
 
 .navigation {
-  justify-content: flex-end;
-  padding-top: 10px;
   padding-right: 30px;
-  flex-basis: 2;
 
 }
 
 .content {
-  border: 2px black solid;
-  height: 800px;
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  font-family: Georgia;
+  border-top: 1px black solid;
+  margin-top: 100px;
+
 }
 
 .stories {
   display: flex;
+  height: 584px;
+  width: 1254px;
+  border-bottom: 1px solid black;
+  border-right:1px solid black;
+  border-left:1px solid black;
+  margin-left: 130px;
 }
 
 .column.large {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   width: 630px;
-  border: 1px black solid;
+  border: 2px black solid;
+  height: 560px;
   margin-right: 32px;
-  text-align: left;
+  margin-left: 0px;
+  margin-top: 20px;
 }
 
 .tunastory {
-  display: block;
   border: 1px black solid;
-  width: 580px;
+  font-size: 17px;
+  color: black;
 }
 
 .monument {
   border: 1px black solid;
-  width: 580px;
+  font-size: 17px;
+  color: black;
+}
+
+.orcapuget {
+  border: 2px black solid;
+  border-bottom: 1px black solid;
+}
+
+.orca {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.puget {
+  font-size: 17px;
+  color: black;
+}
+
+.earth {
+  border-bottom: 2px black solid;
+  font-size: 17px;
+  color: black;
+
+}
+
+.burgermewyork {
+  font-size: 25px;
+  font-weight: bold;
+  border-top: 2px black solid;
+
+}
+
+.mewyork {
+ font-size: 17px;
+ }
+
+.research {
+  border-top: 1px black solid;
+  border-left: 2px black solid;
+  border-right: 2px black solid;
+  border-bottom: 2px black solid;
+  font-size: 17 px;
 }
 
 .column.medium {
   width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  border: black 3px solid;
+  height: 560px;
+  margin-right: 32px;
+  margin-top: 20px;
+
+}
+
+.fbi {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.fbistory {
+  padding-bottom: 10px;
+  border-bottom: black 2px solid;
+}
+
+.cats {
+  font-size: 17px;
+  border-bottom: 1px black solid;
+}
+
+.brooklyn {
+  padding-top: 10px;
 }
 
 .column.small {
   width: 240px;
+  border: 1px black solid;
+  height: 560px;
+  margin-top: 20px;
+  margin-right: 32px;
+}
+
+.cookie {
+  border-bottom: 1px solid black;
+}
+
+.news {
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.emoji {
+  padding-top: 10px;
+  border-bottom: 1px black solid;
+  text-align: left;
 }
