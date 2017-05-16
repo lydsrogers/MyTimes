@@ -68,7 +68,7 @@ a:visited {
 
 .stories {
   display: flex;
-  height: 584px;
+  height: 100%;
   width: 1254px;
   border-bottom: 1px solid black;
   border-right:1px solid black;
@@ -81,16 +81,19 @@ a:visited {
   flex-direction: column;
   width: 630px;
   border: 2px black solid;
-  height: 560px;
-  margin-right: 32px;
-  margin-left: 0px;
-  margin-top: 20px;
+  height: 100%;
+  margin: 20px 32px 50px 0px;
+
 }
 
 .tunastory {
   border: 1px black solid;
-  font-size: 17px;
-  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  height: 300px;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  margin-bottom: 30px;
 }
 
 .monument {
@@ -116,8 +119,13 @@ a:visited {
 
 .earth {
   border-bottom: 2px black solid;
-  font-size: 17px;
-  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
 
 }
 
@@ -125,6 +133,8 @@ a:visited {
   font-size: 25px;
   font-weight: bold;
   border-top: 2px black solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
 
 }
 
@@ -133,11 +143,16 @@ a:visited {
  }
 
 .research {
-  border-top: 1px black solid;
-  border-left: 2px black solid;
-  border-right: 2px black solid;
-  border-bottom: 2px black solid;
-  font-size: 17 px;
+  border-top: 1px 2px 2px 2px black solid;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+  margin-top: 15px;
+
 }
 
 .column.medium {
@@ -145,9 +160,10 @@ a:visited {
   display: inline-flex;
   flex-direction: column;
   border: black 3px solid;
-  height: 560px;
+  height: 100%;
   margin-right: 32px;
   margin-top: 20px;
+
 
 }
 
@@ -163,20 +179,33 @@ a:visited {
 }
 
 .cats {
-  font-size: 17px;
+  font-size: 40px;
   border-bottom: 1px black solid;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  margin-top: 15px;
+  height: 300px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
+
+
+
 
 .brooklyn {
   padding-top: 10px;
+  margin-bottom: 100%;
+  border-bottom: 1px black solid;
 }
 
 .column.small {
   width: 240px;
   border: 1px black solid;
-  height: 560px;
+  height: 1144px;
   margin-top: 20px;
   margin-right: 32px;
+  flex-direction: column;
+  display: flex;
 }
 
 .cookie {
@@ -193,4 +222,5 @@ a:visited {
   padding-top: 10px;
   border-bottom: 1px black solid;
   text-align: left;
+  margin-bottom: 100%;
 }
